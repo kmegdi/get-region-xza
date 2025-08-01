@@ -4,14 +4,14 @@ import requests
 app = Flask(__name__)
 
 def get_player_info(Id):    
-    url = "https://shop2game.com/api/auth/player_id_login"
+    url = "https://topup.pk/api/auth/player_id_login"
     headers = {
         "Accept": "application/json",
         "Accept-Encoding": "gzip, deflate, br",
         "Accept-Language": "en-US,en;q=0.9,en;q=0.8",
         "Content-Type": "application/json",
-        "Origin": "https://shop2game.com",
-        "Referer": "https://shop2game.com/app",
+        "Origin": "https://cdn-gop.garenanow.com",
+        "Referer": "https://topup.pk/app",
         "sec-ch-ua": '"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"',
         "sec-ch-ua-mobile": "?0",
         "sec-ch-ua-platform": "Windows",
